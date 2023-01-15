@@ -1,0 +1,182 @@
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 116px;
+}
+nav li {
+  list-style: none;
+  margin-top: 50px;
+  padding-right: 40px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 4%;
+}
+.header {
+  background: rgba(255, 144, 14, 0.1);
+
+  margin-bottom: 8%;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* image section  */
+
+.brand {
+  font-size: 64px;
+  font-weight: 700;
+}
+.sajuguju {
+  text-align: center;
+}
+.explore {
+  background: #ff900e;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+.brand-des {
+  color: #727272;
+  font-size: 18px;
+  padding-top: 28px;
+}
+.padding {
+  padding-bottom: 50px;
+  color: #727272;
+}
+
+.image_banner img {
+  width: 100%;
+}
+.img_div {
+  display: flex;
+  margin-bottom: 5%;
+  /* padding-left: 10%; */
+
+  gap: 2%;
+}
+.img_div-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.img-div-images {
+  width: 45%;
+}
+.img-div-images img {
+  width: 100%;
+}
+
+.quick {
+  margin-top: 20%;
+  padding-bottom: 5%;
+}
+.color {
+  color: #727272;
+  font-size: 28px;
+}
+.color_orange {
+  color: #ff900e;
+}
+.margin_bottom {
+  margin-bottom: 5%;
+  color: #727272;
+}
+.baba {
+  display: flex;
+  gap: 10%;
+}
+.feature {
+  font-size: 250%;
+  border-left: 5px solid #ff900e;
+}
+.woman img {
+  width: 100%;
+}
+.jekono,
+.love {
+  width: 45%;
+}
+.common {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-top: 5%;
+}
+.anari {
+  margin-top: 5%;
+}
+
+.experience {
+  background-color: #ff8800;
+  width: 40%;
+  color: #ffffff;
+  padding: 5%;
+  text-align: center;
+  border-radius: 2%;
+  position: relative;
+  top: -8%;
+  left: -12%;
+}
+
+.fact {
+  font-weight: 700;
+  font-size: 250%;
+  margin-bottom: 2%;
+}
+.fact-color {
+  color: #727272;
+}
+.chesta {
+  display: flex;
+  justify-content: space-between;
+}
+
+.common-1 {
+  border: 2px solid #ff900e;
+  border-radius: 5%;
+  padding: 4%;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.text {
+  text-align: center;
+}
+.sponsor {
+  font-size: 245%;
+  margin-bottom: 3%;
+}
+.kala {
+  color: #727272;
+  font-size: 100%;
+}
+
+.app {
+  margin-top: 5%;
+}
+img {
+  margin-right: 5.5%;
+}
+.foot {
+  background-color: bisque;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  text-align: center;
+}
