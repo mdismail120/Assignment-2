@@ -5,20 +5,25 @@
 }
 nav {
   display: flex;
-  justify-content: space-between;
-  padding-bottom: 116px;
+  align-items: center;
+  padding-bottom: 10%;
 }
-nav li {
-  list-style: none;
-  margin-top: 50px;
-  padding-right: 40px;
+.nav-title,
+.nav-menu {
+  width: 50%;
 }
 nav ul {
   display: flex;
   align-items: center;
+  list-style: none;
+  gap: 10%;
+  justify-content: end;
+}
+nav ul li {
+  font-weight: 500;
 }
 .title {
-  font-size: 40px;
+  font-size: 220%;
   font-weight: 800;
   padding-top: 4%;
 }
@@ -28,14 +33,14 @@ nav ul {
   margin-bottom: 8%;
 }
 .container {
-  max-width: 1170px;
+  max-width: 80%;
   margin: 0 auto;
 }
 
 /* image section  */
 
 .brand {
-  font-size: 64px;
+  font-size: 240%;
   font-weight: 700;
 }
 .sajuguju {
@@ -44,18 +49,19 @@ nav ul {
 .explore {
   background: #ff900e;
   color: white;
-  font-size: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  font-size: 135%;
+  padding: 2%;
+  border-radius: 5%;
   margin-bottom: 5%;
+  border: 0;
 }
 .brand-des {
   color: #727272;
-  font-size: 18px;
-  padding-top: 28px;
+  font-size: 110%;
+  padding-top: 2%;
 }
 .padding {
-  padding-bottom: 50px;
+  padding-bottom: 3.5%;
   color: #727272;
 }
 
@@ -74,6 +80,10 @@ nav ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.babor,
+.img_div-wrapper {
+  width: 50%;
+}
 .img-div-images {
   width: 45%;
 }
@@ -84,10 +94,10 @@ nav ul {
 .quick {
   margin-top: 20%;
   padding-bottom: 5%;
+  font-size: 255%;
 }
 .color {
   color: #727272;
-  font-size: 28px;
 }
 .color_orange {
   color: #ff900e;
@@ -95,6 +105,7 @@ nav ul {
 .margin_bottom {
   margin-bottom: 5%;
   color: #727272;
+  font-size: 100%;
 }
 .baba {
   display: flex;
@@ -170,7 +181,7 @@ nav ul {
 .app {
   margin-top: 5%;
 }
-img {
+.img {
   margin-right: 5.5%;
 }
 .foot {
@@ -179,4 +190,63 @@ img {
   margin-bottom: 10%;
   padding: 2%;
   text-align: center;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+  .nav-menu ul {
+    flex-direction: column;
+
+    padding: 2%;
+  }
+
+  .nav-menu ul li {
+    padding: 2%;
+    text-align: right;
+  }
+  .img_div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .img_div-wrapper,
+  .babor {
+    width: 90%;
+  }
+  .babor {
+    text-align: center;
+  }
+  .baba {
+    flex-direction: column;
+    align-items: center;
+  }
+  .love {
+    width: 90%;
+  }
+  .jekono,
+  .woman {
+    width: 90%;
+    text-align: center;
+  }
+  .woman img {
+    width: 100%;
+    text-align: center;
+  }
+  .experience {
+    top: -10%;
+    position: relative;
+  }
+  .chesta {
+    flex-direction: column;
+  }
+  .fact,
+  .fact-color {
+    text-align: center;
+  }
+  .app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .app img {
+    width: 22%;
+  }
 }
