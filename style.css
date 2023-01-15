@@ -197,6 +197,7 @@ nav ul li {
     flex-direction: column;
 
     padding: 2%;
+    align-items: end;
   }
 
   .nav-menu ul li {
